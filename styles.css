@@ -4,6 +4,8 @@
 body{
     font-family: 'roboto', 'Times-New-Roman', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero{
@@ -12,12 +14,14 @@ body{
     background-color: #1F2937;
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 100px;
     gap: 40px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -37,15 +41,18 @@ body{
 .heroMain{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
     margin-bottom: 70px;
-    gap: 40px;
 }
 
 .heroContainer{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 400px;
     gap: 10px;
+    height: 250px;
 }
 
 .heroImage{
@@ -58,6 +65,7 @@ body{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .heroText{
@@ -80,4 +88,50 @@ body{
     align-items: center;
     justify-content: center;
     color: #F9FAF8
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.informationTitle{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.informationContainer{
+    display: flex;
+    margin-top: 35px;
+}
+
+.boxContainer{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 200px;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.informationButton{
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.informationText{
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    margin-top: 0;
 }
